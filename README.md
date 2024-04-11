@@ -1,5 +1,7 @@
 # mdpdfmake (Convert Markdown to pdfmake easily)
 
+**REMOVED IMAGE FUNCTIONALITY TO MAKE IT COMPATIBLE WITH BROWSER**
+
 Finding a converter that can convert Markdown to PDFMake can be difficult. This package aims to solve that problem by providing a simple function that takes Markdown input (string) and converts it into a format that can be used with the PDFMake library.
 
 This allows you to easily create PDF documents from your Markdown files.

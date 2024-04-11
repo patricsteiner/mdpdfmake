@@ -1,12 +1,12 @@
 {
-  "name": "mdpdfmake",
-  "version": "1.0.8",
+  "name": "@patricsteiner/mdpdfmake",
+  "version": "1.0.10",
   "description": "A Node.js library to convert Markdown to PDFMake Syntax",
   "main": "dist/index.js",
   "types": "src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hackerbone/mdpdfmake.git"
+    "url": "git+https://github.com/patricsteiner/mdpdfmake.git"
   },
   "keywords": [
     "markdown",
@@ -15,7 +15,7 @@
     "document",
     "converter"
   ],
-  "author": "Sitaraman S",
+  "author": "Patric Steiner",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
@@ -35,15 +35,13 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "axios": "^1.5.1",
-    "image-to-base64": "^2.2.0",
     "marked": "^9.1.2",
     "pdfmake": "^0.2.8"
   },
   "bugs": {
-    "url": "https://github.com/hackerbone/mdpdfmake/issues"
+    "url": "https://github.com/patricsteiner/mdpdfmake/issues"
   },
-  "homepage": "https://github.com/hackerbone/mdpdfmake#readme",
+  "homepage": "https://github.com/patricsteiner/mdpdfmake",
   "engines": {
     "node": ">=12.0.0"
   }

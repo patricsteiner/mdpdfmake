@@ -5,7 +5,7 @@ import { lexer } from "marked";
 import { TDocumentDefinitions } from "pdfmake/interfaces";
 
 // Utils
-import { pdfMakeImage } from "./utils/image";
+// import { pdfMakeImage } from "./utils/image";
 import { pdfMakeParagraph } from "./utils/paragraph";
 import { pdfMakeHeading } from "./utils/heading";
 import { pdfMakeList } from "./utils/list";
@@ -61,9 +61,9 @@ async function mdpdfmake(
         await pdfMakeBlockquote(token, content);
         break;
 
-      case "image":
-        await pdfMakeImage(token, content);
-        break;
+      // case "image":
+      //   await pdfMakeImage(token, content);
+      //   break;
 
       case "code":
         await pdfMakeCodeblock(token, content);
